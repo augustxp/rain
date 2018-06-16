@@ -4,7 +4,7 @@
  <div class="bg-primary">
   <div class="container post-width">
     <div class="text-center">
-      <div class="text-center banner"><a href="<?php echo home_url(); ?>">The<span class="red">-</span>Craft.com</a></div>
+      <div class="text-center banner"><a href="<?php echo home_url(); ?>">The Unending Rain</a></div>
       <nav class="nav-links">
         <?php
         $args = array(
