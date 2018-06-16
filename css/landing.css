@@ -1,0 +1,9 @@
+body {
+		background: url('http://theunendingrain.com/wp-content/uploads/2018/06/bestgray.gif') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+	}

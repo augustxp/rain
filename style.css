@@ -1,0 +1,236 @@
+/*
+Theme Name: Rain
+Theme URI: http://theunendingrain.com
+Author URI: http://the-craft.com
+Description: Custom Wordpress Theme for TheUnendingRain.com
+Version: 1.0
+*/
+
+/*
+ * Text
+ */
+
+ a {
+   text-decoration: none;
+   color: #DCDCDC;
+ }
+
+ a:visited {
+   text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: none;
+   color: #C8C8C8;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+.red {
+  color: #FF9999;
+}
+
+.more-gray {
+  color: #808080;
+}
+
+.gray {
+  color: #C8C8C8;
+}
+
+.less-gray {
+  color: #DCDCDC;
+}
+
+/*
+ * Header
+ */
+
+ .banner {
+   font-size: 1.7rem;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+ }
+
+ .banner a:link {
+   color: #C8C8C8;
+   text-decoration: none;
+ }
+
+ .banner a:hover {
+   color: #808080;
+   text-decoration: none;
+ }
+
+ .banner a:active {
+   color: #000;
+   text-decoration: none;
+ }
+
+ .b-descrip {
+   font-size: 1.5rem;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+ }
+
+ /*
+  * Nav
+  */
+
+.nav-links {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.nav-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul:before {
+  content: ""; display: table;
+}
+
+.nav-links ul:after {
+  content: ""; display: table;
+}
+
+.nav-links ul li:after {
+  content: ".";
+  color: #DCDCDC;
+}
+
+.nav-links ul {
+  *zoom: 1;
+  text-align: center;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-links nav ul li a:link {
+  color: #DCDCDC;
+  text-decoration: none;
+}
+
+.nav-links nav ul li a:link {
+  color: #DCDCDC;
+  text-decoration: none;
+}
+
+.nav-links nav ul li a:visited {
+  color: #DCDCDC;
+  text-decoration: none;
+}
+
+.nav-links nav ul li a:hover {
+  color: #C8C8C8;
+  text-decoration: none;
+}
+
+.current-menu-item a {
+color:#808080;
+text-decoration: none;
+}
+
+.nav-links nav ul li a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration:none!important;
+}
+
+
+/*
+ * Image
+ */
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/*
+ * Blog posts
+ */
+
+ @media (min-width: 550px) {
+ .post-width{
+     width:550px;
+ }}
+
+@media (min-width: 768px) {
+.post-width{
+    width:550px;
+}}
+
+@media (min-width: 992px) {
+.post-width{
+    width:550px;
+}}
+
+@media (min-width: 1200px) {
+.post-width{
+    width:550px;
+}}
+
+@media (min-width: 1500px) {
+.post-width{
+    width:550px;
+}}
+
+@media (min-width: 2000px) {
+.post-width{
+    width:550px;
+}}
+
+.blog-post {
+  margin-bottom: 4rem;
+  font-size: 1.7rem;
+  font-family: 'Forum', cursive;
+  font-weight: 300;
+}
+.blog-post a {
+  color: #808080;
+  text-decoration: none;
+}
+.blog-post a:hover,
+a:focus {
+  color: #181818;
+  text-decoration: none;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.blog-post-date {
+  margin-bottom: 1.25rem;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.blog-sep {
+  margin-top: 4rem;
+  text-align: center;
+  color: red;
+}
+
+/*
+ * Header
+ */
+
+ .copyright {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+ }
