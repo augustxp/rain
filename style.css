@@ -37,11 +37,15 @@ Version: 1.0
 }
 
 .gray {
-  color: #C8C8C8;
+  color: #999;
 }
 
 .less-gray {
   color: #DCDCDC;
+}
+
+.white {
+  color: white;
 }
 
 /*
@@ -80,9 +84,10 @@ Version: 1.0
   */
 
 .nav-links {
-  font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  float: left;
+  font-size: 1rem;
 }
 
 .nav-links ul {
@@ -99,13 +104,12 @@ Version: 1.0
 }
 
 .nav-links ul li:after {
-  content: ".";
+  content: "  ";
   color: #DCDCDC;
 }
 
 .nav-links ul {
   *zoom: 1;
-  text-align: center;
 }
 
 .nav-links ul li {
@@ -193,13 +197,15 @@ text-decoration: none;
 }}
 
 .blog-post {
-  margin-bottom: 4rem;
-  font-size: 1.7rem;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
   font-family: 'Forum', cursive;
-  font-weight: 300;
+  font-weight: 100;
+  color: white;
 }
+
 .blog-post a {
-  color: #808080;
+  color: #C8C8C8;
   text-decoration: none;
 }
 .blog-post a:hover,
@@ -210,27 +216,53 @@ a:focus {
 
 .blog-post-title {
   margin-bottom: .25rem;
-  font-size: 2.8rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-size: 1.8rem;
 }
 .blog-post-date {
   margin-bottom: 1.25rem;
   color: #999;
+  font-size: .9rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
 .blog-sep {
-  margin-top: 4rem;
+  padding-top: 2em;
   text-align: center;
-  color: red;
+  font-size: 1rem;
+  color: white;
+}
+
+/*
+ * Post nav
+ */
+
+.postnav {
+  padding-top: 2em;
+}
+
+.nextpost {
+  float: right;
+}
+
+.prevpost {
+  float: left;
 }
 
 /*
  * Header
  */
 
+ .navv {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
+   padding-top: 4em;
+ }
+
  .copyright {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
+   font-size: 1rem;
+   padding-top: 2em;
+   color: #999;
  }

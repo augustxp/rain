@@ -16,7 +16,10 @@
     <link href="<?php bloginfo('template_url') ?>/css/normalize.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url') ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-    <!-- Roboto Font -->
-    <link href="https://fonts.googleapis.com/css?family=Forum|Roboto:100,300" rel="stylesheet">
+    <link href="<?php bloginfo('template_url') ?>/css/landing.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
