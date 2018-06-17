@@ -87,34 +87,17 @@ Version: 1.0
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   float: left;
-  font-size: 1rem;
 }
 
 .nav-links ul {
-  margin: 0;
+  margin-left: -10px;
   padding: 0;
-}
-
-.nav-links ul:before {
-  content: ""; display: table;
-}
-
-.nav-links ul:after {
-  content: ""; display: table;
-}
-
-.nav-links ul li:after {
-  content: "  ";
-  color: #DCDCDC;
-}
-
-.nav-links ul {
-  *zoom: 1;
 }
 
 .nav-links ul li {
   list-style: none;
   display: inline;
+  margin-left: 10px;
 }
 
 .nav-links nav ul li a:link {
@@ -197,7 +180,7 @@ text-decoration: none;
 }}
 
 .blog-post {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-size: 1.3rem;
   font-family: 'Forum', cursive;
   font-weight: 100;
