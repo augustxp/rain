@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<link href="<?php bloginfo('template_url') ?>/css/blog.css" rel="stylesheet">
 <body>
  <div>
   <div class="container post-width">

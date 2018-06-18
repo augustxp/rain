@@ -152,32 +152,8 @@ text-decoration: none;
  @media (min-width: 550px) {
  .post-width{
      width:550px;
- }}
-
-@media (min-width: 768px) {
-.post-width{
-    width:550px;
-}}
-
-@media (min-width: 992px) {
-.post-width{
-    width:550px;
-}}
-
-@media (min-width: 1200px) {
-.post-width{
-    width:550px;
-}}
-
-@media (min-width: 1500px) {
-.post-width{
-    width:550px;
-}}
-
-@media (min-width: 2000px) {
-.post-width{
-    width:550px;
-}}
+ }
+}
 
 .blog-post {
   margin-bottom: 1rem;

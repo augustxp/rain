@@ -23,11 +23,26 @@ font-family: 'Julius Sans One', sans-serif;
   color: white;
 }
 
+.l_nav {
+    margin-top: 25%;
+}
+
 .l_prologue {
-  margin-top: 25%;
   font-size: 3vw;
   font-family: 'Forum', sans-serif;
   font-weight: 300;
+  color: white;
+}
+
+.l_latest {
+  font-size: 2.8vw;
+  font-family: 'Forum', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.l_star {
+  font-size: 2vw;
   color: white;
 }
 
