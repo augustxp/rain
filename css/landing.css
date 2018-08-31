@@ -28,22 +28,23 @@ font-family: 'Julius Sans One', sans-serif;
 }
 
 .l_prologue {
-  font-size: 3vw;
+  font-size: 6vh;
   font-family: 'Forum', sans-serif;
   font-weight: 300;
   color: white;
 }
 
 .l_latest {
-  font-size: 2.8vw;
+  font-size: 6vh;
   font-family: 'Forum', sans-serif;
   font-weight: 300;
   color: white;
 }
 
 .l_star {
-  font-size: 2vw;
+  font-size: 4vh;
   color: white;
+  padding: 2vh;
 }
 
 .fade-in {
@@ -57,4 +58,8 @@ font-family: 'Julius Sans One', sans-serif;
   to {
     opacity: 1;
   }
+}
+
+.float-right {
+  float: right;
 }
