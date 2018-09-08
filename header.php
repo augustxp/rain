@@ -17,6 +17,7 @@
     <link href="<?php bloginfo('template_url') ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <link href="<?php bloginfo('template_url') ?>/css/landing.css" rel="stylesheet">
+    
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">

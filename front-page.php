@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <body>
+  <body class="front-page-bg">
 
     <div class="text-center l_title">The Unending Rain</div>
     <div class="text-center l_nav fade-in">
@@ -10,7 +10,7 @@
 
     </div>
 
-    <div class="footer container">
+    <div class="footer navbar-fixed-bottom container">
         <nav class="nav-links float-right">
           <?php
           $args = array(
